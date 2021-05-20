@@ -243,6 +243,9 @@
                   javax.*
                 </dependency>
                 <dependency>
+                  jakarta.*
+                </dependency>
+                <dependency>
                   org.slf4j:*
                 </dependency>
                 <dependency>
@@ -256,7 +259,8 @@
                 </dependency>
                  <dependency>
                   org.jboss.spec.javax.annotation:jboss-annotations-api_1.3_spec
-                </dependency><dependency>
+                </dependency>
+                <dependency>
                   org.apache.lucene:lucene-core
                 </dependency>
                 <dependency>

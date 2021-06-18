@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.drools</groupId>
     <artifactId>drools-wb-drl-text-editor</artifactId>
-    <version>7.55.0-SNAPSHOT</version>
+    <version>7.56.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>drools-wb-drl-text-editor-client</artifactId>
@@ -94,6 +94,11 @@
     <dependency>
       <groupId>org.uberfire</groupId>
       <artifactId>uberfire-commons-editor-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>jakarta.annotation</groupId>
+      <artifactId>jakarta.annotation-api</artifactId>
     </dependency>
 
     <dependency>

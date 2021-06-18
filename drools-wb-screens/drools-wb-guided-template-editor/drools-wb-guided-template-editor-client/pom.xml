@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.drools</groupId>
     <artifactId>drools-wb-guided-template-editor</artifactId>
-    <version>7.55.0-SNAPSHOT</version>
+    <version>7.56.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>drools-wb-guided-template-editor-client</artifactId>
@@ -126,6 +126,11 @@
     <dependency>
       <groupId>org.uberfire</groupId>
       <artifactId>uberfire-commons-editor-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>jakarta.annotation</groupId>
+      <artifactId>jakarta.annotation-api</artifactId>
     </dependency>
 
     <!-- GWT and GWT Extensions -->
